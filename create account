@@ -14,7 +14,7 @@
         <br>
         <br>
         <label for="Email">Email</label>
-        <input type="Email" placeholder="Email" name="the Email is:" required="required">
+        <input type="Email" placeholder="example@gmail.com" name="the Email is:" required="required">
         <br>
         <br>
         <label for="pass">Password</label>
@@ -23,6 +23,10 @@
         <br>
         <label for="Age">Age</label>
         <input type="number " min="18" max="50" step="2" placeholder="input your age 18:50">
+        <br>
+        <br>
+        <label for="Address">Address</label>
+        <input type="text" name="Address" placeholder="Address">
         <br>
         <br>
         <p>The day you register
@@ -61,8 +65,6 @@
         <label for="verybig">very Big</label>
         <br>
         <br>
-
-
         <p>Or Register on
             <br>
             <br>
@@ -72,7 +74,7 @@
 
 
     </form>
-    
+
     <p>Enter Your Intererst about Apple :</p>
     <textarea rows="5" cols="25">
 </textarea>
@@ -86,8 +88,7 @@
 
         <button>Login</button>
     </form>
-    <br>
-    <br>
+    
     <form action="https://www.youtube.com/">
         <label for="youtupe">Search on Youtupe about Apple</label>
         <br>
@@ -105,6 +106,18 @@
         <input type="text" name="search on google " id="google">
         <button>Google</button>
     </form>
+    
+    <p><a href="https://support.apple.com/">support</a> </p>
+    
+    <!--<a href="https://support.apple.com/">support<img src="apple.jpg" style="width:90px;"></a>-->
+    <p>
+    <a href="https://www.apple.com/legal/privacy/en-ww/">Privacy Policy</a>
+    <a href="https://www.apple.com/legal/internet-services/terms/site.html">Terms of use</a>
+    <a href="https://www.apple.com/shop/browse/open/salespolicies">Sales and Refunds</a>
+    <a href="https://www.apple.com/sitemap/"> Site Map</a>
+    </p>
+   
+<p>Copyright © 2021 Apple Inc. All rights reserved</p><img src="apple.jpg" style="width:90px;">
 
 </body>
 
