@@ -1,0 +1,111 @@
+<html>
+
+<head>
+
+    <title>Create A ccount</title>
+
+</head>
+
+<body>
+    <form action="https://www.iphone.com">
+        <label for="username">User Name</label>
+        <input type="text" placeholder="UserName" name="the user name is:" required="required" minlength="5"
+            maxlength="20">
+        <br>
+        <br>
+        <label for="Email">Email</label>
+        <input type="Email" placeholder="Email" name="the Email is:" required="required">
+        <br>
+        <br>
+        <label for="pass">Password</label>
+        <input type="password" placeholder="password" name="the password is" required="Rules">
+        <br>
+        <br>
+        <label for="Age">Age</label>
+        <input type="number " min="18" max="50" step="2" placeholder="input your age 18:50">
+        <br>
+        <br>
+        <p>The day you register
+            <select>
+                <option>Saterday</option>
+                <option>Sunday</option>
+                <option>Monday</option>
+                <option>Tuesday</option>
+                <option>Wednesday</option>
+                <option>Thursday</option>
+                <option>Friday</option>
+
+            </select>
+        </p>
+        <label for="time">Time You Register</label>
+        <input type="time" name="time" id="time">
+        <br>
+
+        <br>
+        <input type="checkbox" checked name="checked_Agree" id="Agree">
+        <label for="Agree">I Agree All Rules</label>
+        <br>
+        <br>
+
+        <label for="range   ">Your Interest Range :</label><br>
+        <input type="range" name="the range is" id="range" min="10%" max="100%">
+        <br>
+        <p>The size of phone you want:</p>
+        <input type="radio" name="size" value="small">
+        <label for="small">small</label>
+        <br>
+        <input type="radio" name="size" value="big">
+        <label for="big">Big</label>
+        <br>
+        <input type="radio" name="size" value="verybig">
+        <label for="verybig">very Big</label>
+        <br>
+        <br>
+
+
+        <p>Or Register on
+            <br>
+            <br>
+            <a href="https://www.facebook.com/"><img src="facebook.jpg" style="width:80px;"></a>
+            <a href="https://www.twitter.com"><img src="twitter.jpg" style="width:60px;"></a>
+        </p>
+
+
+    </form>
+    
+    <p>Enter Your Intererst about Apple :</p>
+    <textarea rows="5" cols="25">
+</textarea>
+    <br>
+    <br>
+    <button>Register Now</button>
+    <br>
+    <br>
+    <p>Already Have An Account</p>
+    <form action="signup.html">
+
+        <button>Login</button>
+    </form>
+    <br>
+    <br>
+    <form action="https://www.youtube.com/">
+        <label for="youtupe">Search on Youtupe about Apple</label>
+        <br>
+        <img src="YOUTUPE.jpg" style="width:90px;">
+        <br>
+        <input type="text" name="the search on youtupe" id="youtupe">
+        <button>Youtupe </button>
+
+    </form>
+    <form action="https://www.google.cpm/">
+        <label for="googel">Search On Google about Apple</label>
+        <br>
+        <img src="google.jpg" style="width:70px;">
+        <br>
+        <input type="text" name="search on google " id="google">
+        <button>Google</button>
+    </form>
+
+</body>
+
+</html>
